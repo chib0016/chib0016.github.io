@@ -1,0 +1,45 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+        background-color: rgb(96, 9, 9);
+        padding: 15px;
+    }
+
+h2{
+    color: black;
+}
+
+footer p {
+    color:grey ;
+}
+
+.site-title{
+    color: blueviolet;
+}
+
+#my-imagev {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul.Hobbies {
+    list-style-type: square;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: brown;
+    border: 2px solid darkblue;
+    padding: 8px 12px
+}
+nav a:hover,
+nav a:focus{
+    background-color: rgb(10, 216, 147);
+}
